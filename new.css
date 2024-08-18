@@ -1,0 +1,110 @@
+*{
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family : 'monospace';
+}
+
+html, body{
+height : 100%;
+width : 100%;
+}
+#main{
+    height: 100%;
+    width: 100;
+    background-color: rgb(224, 151, 50);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width:26%;
+    /*background-color: rebeccapurple;*/
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: rgb(57, 88, 189);
+    background-image: url(https://img.freepik.com/free-photo/young-woman-red-polka-dot-outfit-with-smile-eyes-closed-posing-yellow-wall_197531-14265.jpg?w=1380&t=st=1723891885~exp=1723892485~hmac=571d863c1af61b17443e8b6f35206eb22d366836d0ecc2799d898abc47840791);
+    background-size: cover;
+    background-position: center;
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(40, 36, 36, 0.357) ;
+}   
+
+
+}
+#part3{
+    height: 100%;
+    width: 8%;
+   /* background-color: rgb(172, 207, 59);*/
+}
+#text-div{
+ /* height: 300px;*/
+  position: absolute;
+  width: 400px;
+  /*background-color: rgb(41, 41, 38);*/
+  left: 5%;
+  top: 50%;
+  transform: translate(0,-50%);
+
+}
+#text-div>h1{
+    font-size: 85px;
+    font-family: gilroy;
+    font-weight: 900;
+    line-height: 78px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    /*background-color: aliceblue;*/
+    background-image: url(https://img.freepik.com/free-photo/pensive-sad-brunette-red-top-shows-finger-up-portrait-girl-isolated-yellow-wall_197531-14266.jpg?t=st=1723893814~exp=1723897414~hmac=4a4d49bab709c494704a3941fbd38b8eba6d20c12ef010042c7585ceb3252d84&w=996);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+#vertical-text{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    bottom: 35%;
+    
+    transform-origin: 0% 0%;
+    /*width: 100%;*/
+  /* background-color: rgb(230, 36, 36);*/
+
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    letter-spacing: 15px;
+    transform: rotate(90deg);
+
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#fff ;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    left: 5%;
+    top: 5%;
+    /*background-color: red;*/
+}
+#nav img{
+    height: 60px;
+}
